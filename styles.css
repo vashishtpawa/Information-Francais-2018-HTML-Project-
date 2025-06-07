@@ -1,0 +1,67 @@
+body{
+background-image: url(grass.jpg);
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+cursor:url(frenchCursor.cur), auto;
+}
+
+table {border: 4px solid blue;
+}
+
+tr {background-color:#fffd8d;
+}
+
+a:link {color:blue;
+text-decoration:underline;
+}
+
+a:visited{color:#0066cc;
+}
+
+a:hover{color:gold;
+}
+
+a:active:{color:black;
+}
+
+.h3padding {padding:5px;
+}
+
+h1 {color:crimson;
+font-family:arial;
+}
+
+em {font-family:arial;
+line-height:150%; font-style:italic;
+
+}
+
+strong, h2, th, li {font-family:arial;
+}
+
+.bold {font-weight:bold;
+}
+
+.swissfacts {border: 3px red double;
+list-style-image:url(SwissList.png);
+color:#0000FF; font-family: arial; 
+}
+
+::selection {
+background-color:orange;
+}
+
+
+.BTT{font-weight:bold;
+font-family:arial;
+border: 4px solid blue;
+width: 94px;
+background-color:#ffbf00;
+padding:2px;
+}
+
+.BTTHover a:hover{
+color:darkblue;
+}
